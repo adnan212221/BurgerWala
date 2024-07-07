@@ -1,0 +1,19 @@
+#menu{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    padding: 4rem;
+
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .cardflex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+   
+}
+

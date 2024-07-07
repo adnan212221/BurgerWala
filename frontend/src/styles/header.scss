@@ -1,0 +1,11 @@
+.cart {
+    gap: 20px;
+
+    a {
+        color: white;
+
+        &:hover {
+            color: rgb(98, 89, 89);
+        }
+    }
+}
