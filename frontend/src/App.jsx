@@ -16,6 +16,9 @@ import Orders from './componenets/Orders';
 import OrderDetails from './componenets/OrderDetails';
 import Dashboard from './componenets/admin/Dashboard';
 import User from './componenets/admin/User';
+import Ordersad from './componenets/admin/Ordersad';
+import About from './componenets/About';
+import PageNotFound from './componenets/PageNotFound';
 
 const App = () => {
   return (
@@ -35,6 +38,11 @@ const App = () => {
       <Route path='/order/:id' element={<OrderDetails />} />
       <Route path='/admin/dashboard' element={<Dashboard />} />
       <Route path='/admin/users' element={<User />} />
+      <Route path='/admin/orders' element={<Ordersad />} />
+      <Route path='/about' element={<About />} />
+
+
+      <Route path='*' element={<PageNotFound />} />
     </Routes>
     </BrowserRouter>
     </>
